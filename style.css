@@ -8,8 +8,9 @@ h1 {
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url("images/bg.jpg");
+  /* background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("images/bg.jpg"); */
+  background-color: black;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -76,7 +77,7 @@ footer {
   color: #fff;
 }
 .content h1 {
-  font-size: 50px;
+  font-size: 6rem;
 }
 .content p {
   margin: 20px auto;
@@ -167,6 +168,7 @@ span {
 u {
   color: #fff;
   margin-bottom: 20px;
+  font-size: 3rem;
 }
 
 .project-tile {
